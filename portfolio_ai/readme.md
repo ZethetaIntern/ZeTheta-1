@@ -53,34 +53,6 @@ The objective of this project is to demonstrate practical portfolio construction
 
 ---
 
-## Project Structure
-
-portfolio_ai/
-│
-├── core/
-│ ├── risk_profile.py # Risk questionnaire & scoring
-│ ├── goals.py # Goal-based return calculations
-│ ├── optimizer.py # Portfolio optimization engine
-│ ├── rebalancer.py # Tax & transaction-aware rebalancing
-│ ├── performance.py # Risk & performance metrics
-│ ├── advisor.py # Robo-advisory recommendation logic
-│
-├── models/
-│ ├── expected_returns.py # Expected return estimation
-│ ├── covariance.py # Covariance estimation
-│
-├── reports/
-│ ├── client_report.py # Client-facing report generation
-│
-├── data/
-│ ├── sample_prices.csv # Sample price data for demonstration
-│
-├── app.py # End-to-end execution pipeline
-└── requirements.txt
-
-
----
-
 ## How the System Works (End-to-End)
 
 1. Investor completes a risk profiling questionnaire  
